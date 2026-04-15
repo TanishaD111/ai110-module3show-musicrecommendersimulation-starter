@@ -132,7 +132,7 @@ Use this section to document the experiments you ran. For example:
 
 ---
 
-When the weight changes, the recommendation order is different
+When the weight changes, the recommendation order is different because it is weighed lesser than before. When something more was added to the score there was more to compare against other songs. This system behaved differently for different users because when the genre and mood matched it was straightforward, but it was more complex when tied to the other smaller weights. 
 
 ## Limitations and Risks
 
@@ -148,6 +148,8 @@ You will go deeper on this in your model card.
 
 ---
 
+The major limitation for this system is that it only has 20 songs in it. No user history is included either so past listening for any user is not taken into account. Also, the genre and mood are an exact match only, so if it is a similar genre or mood, it will still receive a zero on the point scale. There is also no artist preference. 
+
 ## Reflection
 
 Read and complete `model_card.md`:
@@ -159,6 +161,9 @@ Write 1 to 2 paragraphs here about what you learned:
 - about how recommenders turn data into predictions
 - about where bias or unfairness could show up in systems like this
 
+I learned how the categorical and numerical calculations are done for the data and how the recommenders use that information to actually recommend songs to users. I didn't really think about this too much before and thought it was just all based on user history, but there are many different attributes that go into the decision making process. 
+
+I think bias and unfairness can show up if a user listens to songs accidentally or if someone else listens to them on their account. There is no way to really delete something and have it completely erased where there wont be a recommendation given from it. Also, some things in this specific recommender at least are not used, like artist preference or similarity in genres. 
 
 ---
 
