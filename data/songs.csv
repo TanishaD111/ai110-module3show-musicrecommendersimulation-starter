@@ -9,3 +9,13 @@ id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
 8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
 9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
 10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Block by Block,Cascade Theory,hip-hop,intense,0.87,96,0.72,0.91,0.08
+12,Slow Burn Tonight,Velvet & Gold,r&b,happy,0.58,88,0.78,0.76,0.44
+13,Autumn Sonata,Clara Voss,classical,chill,0.18,52,0.22,0.24,0.97
+14,Dirt Road Letters,Hank Hollow,folk,relaxed,0.55,104,0.74,0.63,0.82
+15,Rave at the Edge,BLST,edm,intense,0.96,138,0.91,0.95,0.03
+16,Empty Porch,Mira Dunne,folk,moody,0.21,66,0.18,0.33,0.94
+17,Iron Curtain,DeadVolt,rock,intense,0.95,168,0.31,0.58,0.07
+18,Rise Up Slowly,The Sable Keys,r&b,happy,0.68,98,0.88,0.80,0.61
+19,Island Static,Coral Drift,pop,chill,0.53,82,0.79,0.84,0.67
+20,Shadow Protocol,GrayMatter,hip-hop,moody,0.71,140,0.27,0.86,0.06
